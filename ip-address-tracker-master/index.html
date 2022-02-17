@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <script src="java/main.js"></script>
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+
+ <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="Map();">
+  <header>
+    <div class = "wrap">
+        <div class="title"><h1>IP Address Tracker</h1></div>
+        <div class="search">
+          <form class="sf" action="">
+            <input  class="searching-bar" type="text" value ="" placeholder="Search for any IP address or domain">
+            <button type="button" onclick="getInfo()"><img class = "image-button" src="/images/icon-arrow.svg"></button>
+          </form>
+        </div>
+    </div>
+    <div class="details">
+      <div class="ip" alt="">
+        <div class="first">ip address</div>
+        <div class="ip-value" alt="IP"></div>
+      </div>
+      <div class="location">
+        <div class="first">location</div>
+        <div class="loctaion-value"></div>
+      </div>
+      <div class="timezone">
+        <div class="first">timezone</div>
+        <div class="timezone-value"></div>
+      </div>
+      <div class="isp">
+        <div class="first">isp</div>
+        <div class="isp-value"></div>
+      </div>
+    </div>
+  </header>
+  
+  <div id="map">
+  </div>  
+
+  <div class="attribution">   
+  </div>
+
+  <script src="java/main.js" />
+</body>
+</html>

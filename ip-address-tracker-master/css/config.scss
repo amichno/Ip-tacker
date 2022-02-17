@@ -1,0 +1,25 @@
+$primary-color: hsl(0, 0%, 17%);
+$secondary-color: hsl(0, 0%, 59%);
+$font: 'Rubik', sans-serif;
+
+html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    width: 1440px;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+   
+}
+
+
+
