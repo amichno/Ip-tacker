@@ -1,1 +1,1 @@
-![ip-tracker screenshot] (./ip-address-tracker-master/design/desktop-preview.jpg)
+![ip-tracker screenshot] (./main/ip-address-tracker-master/design/desktop-preview.jpg)
